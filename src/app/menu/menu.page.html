@@ -1,0 +1,34 @@
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <div class="toolbar">
+        <ion-icon (click)='closePage()' name="arrow-round-back"></ion-icon>
+        <ion-title>Create a new todo</ion-title>
+        <ion-icon name="contact"></ion-icon>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+  <div class="name-todo">
+    <ion-item>
+      <ion-label position="floating">Name of todo</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </div>
+  <div class="describe-todo">
+    <ion-item>
+      <ion-label position="floating">Description of todo</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </div>
+  <div class="date">
+    <ion-item>
+      <ion-label>Date</ion-label>
+      <ion-datetime display-format="DD MMMM YYYY" min="2016" max="2020-10-31"></ion-datetime>
+    </ion-item>
+  </div>
+  <div class="add">
+    <ion-button (click)='closePage()' color="light">
+      <ion-icon slot="icon-only" name="add-circle-outline"></ion-icon>
+    </ion-button>
+  </div>
+</ion-content>

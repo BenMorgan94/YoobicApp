@@ -1,0 +1,72 @@
+<ion-content>
+  <ion-header>
+    <div class="header">
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <div class="back-button">
+          <ion-icon name="contact"></ion-icon>
+        </div>
+        <ion-title>John's Todos</ion-title>
+      </ion-toolbar>
+    </div>
+  </ion-header>
+  <ion-searchbar placeholder="Filter todos"></ion-searchbar>
+  <div class="button">
+    <ion-button (click)='showMenuPage()' color="dark" size="small">Add new todo</ion-button>
+  </div>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Friday 31st May 2019</ion-card-subtitle>
+      <ion-card-title>You have 2 todos to complete:</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <li>
+        Go to Waitrose to complete the weekly shop (shopping list) <input type="checkbox" id="completed">
+      </li>
+      <li>
+        Put up new shelves in the living room <input type="checkbox" id="completed">
+      </li>
+      <li>
+        Watch The Lord of the Rings Trilogy <input type="checkbox" id="completed">
+      </li>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Saturday 1st June 2019</ion-card-subtitle>
+      <ion-card-title>You have 4 todos to complete:</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <li>
+        Watch the Champions League Final <input type="checkbox" id="completed">
+      </li>
+      <li>
+        Go for coffee with John Dow <input type="checkbox" id="completed">
+      </li>
+      <li>
+        Clean out the attic <input type="checkbox" id="completed">
+      </li>
+      <li>
+        Plant new flowers <input type="checkbox" id="completed">
+      </li>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Sunday 2nd June 2019</ion-card-subtitle>
+      <ion-card-title>You have 0 todos to complete:</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Monday 3rd June 2019</ion-card-subtitle>
+      <ion-card-title>You have 0 todos to complete:</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
